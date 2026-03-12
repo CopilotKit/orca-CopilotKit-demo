@@ -1,33 +1,7 @@
-# Cisco CopilotKit Demo
-.
+# This repository has been archived
 
-## Overview
+This project has been consolidated into the [CopilotKit monorepo](https://github.com/CopilotKit/CopilotKit).
 
-This project is a modern dashboard and analytics solution built with Next.js (in the `frontend` directory). It features:
-- Clean, responsive UI for PR and repository analytics
-- Interactive charts and tables
-- Integration with OpenAI via CopilotKit
+**New location:** [`examples/showcases/orca`](https://github.com/CopilotKit/CopilotKit/tree/main/examples/showcases/orca)
 
-## Quick Start (Frontend)
-
-1. **Install dependencies**
-   ```bash
-   cd frontend
-   pnpm install
-   ```
-
-2. **Set up environment variables**
-   - Create a `.env` file in the `frontend` directory:
-     ```bash
-     echo "OPENAI_API_KEY=your_openai_api_key_here" > .env
-     ```
-   - Replace `your_openai_api_key_here` with your actual OpenAI API key.
-
-3. **Run the development server**
-   ```bash
-   pnpm run dev
-   ```
-   The app will be available at [http://localhost:3000](http://localhost:3000).
-
----
-
+Please open issues and pull requests in the [main CopilotKit repository](https://github.com/CopilotKit/CopilotKit).
